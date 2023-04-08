@@ -20,18 +20,6 @@ body {
 }
 ...
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 
 
 html {
@@ -111,7 +99,7 @@ header {
 }
 
 .title {
-  color: #a9a9a9;
+  color: #fefefe;
   text-align: center;
   padding-top: 4rem;
   font: Bold 1.2em "sumsung", s
@@ -121,6 +109,7 @@ header {
   font-size: 5.6rem;
   line-height: 1.08;
   letter-spacing: 0.005rem;
+  color:#fefefe
 }
 
 .title-sub-heading {
@@ -128,6 +117,7 @@ header {
   margin-top: 0.6rem;
   letter-spacing: 0.008rem;
   font-weight: 400;
+  color:#fefefe
 }
 
 .title-price {
@@ -158,7 +148,7 @@ header {
 /* iphone 11 section */
 
 .iphone-12 {
-  background: url("images/hero/iphone-12/hero_iphone_12_large.jpg");
+  background: url("images/samsung/note9_banner.jpeg");
 }
 
 .title-dark {
@@ -193,12 +183,11 @@ footer{
 }
 /* spacing and color between blocks */
 .hero {
-  height: 69.2rem;
-  background-size: auto 74;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-top: 0.6rem solid #6c2020;
-  border-bottom: 0.6rem solid #7e1f1f;
+  height: 47.2rem;
+  background-size: auto  ;
+  background-position: left
+  ;
+  background-repeat: no-repeat ;
 }
 
 .imac {
@@ -211,10 +200,10 @@ footer{
 
 @media screen and (max-width: 360px) {
   .iphone-12-pro {
-    background: url("images/hero/iphone-12-pro/iphone_12_pro_medium.jpg");
+    background: url("images/samsung/note9_banner.jpeg");
   }
   .iphone-12 {
-    background: url("images/hero/iphone-12/hero_iphone_12_small.jpg");
+    background: url("images/samsung/note9_banner.jpeg");
   }
   .watch {
     background: url("images/hero/watch/watch_medium.jpg");
@@ -446,7 +435,7 @@ footer{
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #0e3a49, #08392e);
+	background: linear-gradient(-45deg, #562a1d, #50162c, #0e3a49, #08392e);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
