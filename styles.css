@@ -6,10 +6,37 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "sumsung";
+  src: url('./fonts/samsung/sans/SamsungSans-Regular.ttf'),
+       url('./fonts/samsung/sans/SamsungSans-Thin.ttf'),
+       url('./fonts/samsung/sans/SamsungSans-Medium.ttf'),
+       url('./fonts/samsung/sans/SamsungSans-Light.ttf'),
+       url('./fonts/samsung/sans/SamsungSans-Bold.ttf') format('truetype') 
+}
+
+body {
+  ...
+}
+...
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 html {
   font-size: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "sumsung";
   scroll-behavior: smooth;
 }
 
@@ -50,7 +77,7 @@ header {
 
 .nav-link {
   font-size: 1.4rem;
-  color: #fff;
+  color: #ffe2e2;
   padding: 0 1rem;
   transition: opacity 0.5s;
 }
@@ -77,11 +104,6 @@ header {
   background: url("images/icons/bag.svg") center no-repeat;
 }
 
-.imac {
-  margin-top: 0;
-  background: url("images/hero/iMac/exynos.png");
-}
-
 /* iphone11pro section */
 
 .iphone-12-pro {
@@ -89,9 +111,10 @@ header {
 }
 
 .title {
-  color: #fff;
+  color: #a9a9a9;
   text-align: center;
-  padding-top: 5.5rem;
+  padding-top: 4rem;
+  font: Bold 1.2em "sumsung", s
 }
 
 .title-heading {
@@ -164,18 +187,18 @@ header {
 }
 footer{
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: medium;
 }
-/* Move this to bottom of style.css file always */
+/* spacing and color between blocks */
 .hero {
   height: 69.2rem;
   background-size: auto 74;
   background-position: center;
   background-repeat: no-repeat;
-  border-top: 0.6rem solid #fff;
-  border-bottom: 0.6rem solid #fff;
+  border-top: 0.6rem solid #6c2020;
+  border-bottom: 0.6rem solid #7e1f1f;
 }
 
 .imac {
@@ -186,10 +209,7 @@ footer{
 
 /* TABLET view */
 
-@media screen and (max-width: 1024px) {
-  .imac{
-    background: url("images/hero/iMac/imac_medium.jpg");
-  }
+@media screen and (max-width: 360px) {
   .iphone-12-pro {
     background: url("images/hero/iphone-12-pro/iphone_12_pro_medium.jpg");
   }
@@ -423,4 +443,23 @@ footer{
   .cta-link {
     font-size: 1.9rem;
   }
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #0e3a49, #08392e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
