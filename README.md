@@ -1,9 +1,5 @@
-# Scrollable 3D Animation made with Three.js
+# Apple-website-clone-2021
+Clone of apple website with live demo.
 
-## Usage
 
-```
-git clone <this-repo>
-npm install
-npm run dev
-```
+## Demo Link : https://cybersaiyam.github.io/Apple-website-clone-2021/
