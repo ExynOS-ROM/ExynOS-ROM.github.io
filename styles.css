@@ -96,6 +96,7 @@ header {
 
 .Note9 {
   background: url("images/samsung/note9_banner.jpeg");
+  padding-top: 5%;
 }
 
 .title {
@@ -166,12 +167,17 @@ header {
 /* apple S9 */
 
 .S9 {
-  background: url("images/hero/S9/S9_large.jpg");
+  background: url("images/hero/watch/watch_large.jpg");
+  
+  /*make background image darker */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  
 }
 
 .title-heading-S9 {
   height: 7.8rem;
-  background: url("images/hero/S9/logo_S9_medium.png") center no-repeat;
+  background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
   background-size: auto 7.8rem;
   margin-top: 1.6rem;
 }
