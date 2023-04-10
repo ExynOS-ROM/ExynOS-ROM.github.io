@@ -163,15 +163,15 @@ header {
   border-bottom-color: #0070c9;
 }
 
-/* apple watch */
+/* apple S9 */
 
-.watch {
-  background: url("images/hero/watch/watch_large.jpg");
+.S9 {
+  background: url("images/hero/S9/S9_large.jpg");
 }
 
-.title-heading-watch {
+.title-heading-S9 {
   height: 7.8rem;
-  background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+  background: url("images/hero/S9/logo_S9_medium.png") center no-repeat;
   background-size: auto 7.8rem;
   margin-top: 1.6rem;
 }
@@ -205,8 +205,8 @@ footer{
   .iphone-12 {
     background: url("images/samsung/note9_banner.jpeg");
   }
-  .watch {
-    background: url("images/hero/watch/watch_medium.jpg");
+  .S9 {
+    background: url("images/hero/S9/S9_medium.jpg");
   }
   .hero {
     height: 65rem;
@@ -227,9 +227,9 @@ footer{
     margin-left: 2rem;
   }
 
-  .title-heading-watch {
+  .title-heading-S9 {
     height: 6.2rem;
-    background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+    background: url("images/hero/S9/logo_S9_medium.png") center no-repeat;
     background-size: auto 6.2rem;
   }
 }
@@ -397,8 +397,8 @@ footer{
   .iphone-12 {
     background: url("images/hero/iphone-12/hero_iphone_12_small.jpg");
   }
-  .watch {
-    background: url("images/hero/watch/watch_small.jpg");
+  .S9 {
+    background: url("images/hero/S9/S9_small.jpg");
   }
   .hero {
     height: 54rem;
@@ -416,7 +416,7 @@ footer{
   .title-sub-heading {
     font-size: 1.9rem;
   }
-  .title-heading-watch {
+  .title-heading-S9 {
     margin-top: -0.5rem;
     margin-bottom: 0;
   }
