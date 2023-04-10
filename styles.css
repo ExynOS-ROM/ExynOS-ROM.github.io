@@ -95,7 +95,7 @@ header {
 /* iphone11pro section */
 
 .Note9 {
-  background: url("images/hero/Note9/iphone_12_pro_large.jpg");
+  background: url("images/samsung/note9_banner.jpeg");
 }
 
 .title {
@@ -147,8 +147,8 @@ header {
 
 /* iphone 11 section */
 
-.iphone-12 {
-  background: url("images/samsung/note9_banner.jpeg");
+.S9p {
+  background: url("images/hero/iphone-12/hero_iphone_12_large.jpg");
 }
 
 .title-dark {
@@ -202,7 +202,7 @@ footer{
   .Note9 {
     background: url("images/samsung/note9_banner.jpeg");
   }
-  .iphone-12 {
+  .S9p {
     background: url("images/samsung/note9_banner.jpeg");
   }
   .S9 {
@@ -394,8 +394,8 @@ footer{
   .Note9 {
     background: url("images/hero/Note9/iphone_12_pro_small.jpg");
   }
-  .iphone-12 {
-    background: url("images/hero/iphone-12/hero_iphone_12_small.jpg");
+  .S9p {
+    background: url("images/hero/S9p/hero_iphone_12_small.jpg");
   }
   .S9 {
     background: url("images/hero/S9/S9_small.jpg");
