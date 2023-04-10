@@ -94,8 +94,8 @@ header {
 
 /* iphone11pro section */
 
-.iphone-12-pro {
-  background: url("images/hero/iphone-12-pro/iphone_12_pro_large.jpg");
+.Note9 {
+  background: url("images/hero/Note9/iphone_12_pro_large.jpg");
 }
 
 .title {
@@ -199,7 +199,7 @@ footer{
 /* TABLET view */
 
 @media screen and (max-width: 360px) {
-  .iphone-12-pro {
+  .Note9 {
     background: url("images/samsung/note9_banner.jpeg");
   }
   .iphone-12 {
@@ -391,8 +391,8 @@ footer{
   .imac{
     background: url("images/hero/iMac/imac_small.jpg");
   }
-  .iphone-12-pro {
-    background: url("images/hero/iphone-12-pro/iphone_12_pro_small.jpg");
+  .Note9 {
+    background: url("images/hero/Note9/iphone_12_pro_small.jpg");
   }
   .iphone-12 {
     background: url("images/hero/iphone-12/hero_iphone_12_small.jpg");
